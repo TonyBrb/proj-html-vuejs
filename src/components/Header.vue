@@ -6,10 +6,13 @@
       </div>
       <div class="menu">
         <ul>
-          <li>prova</li>
-          <li>prova</li>
-          <li>prova</li>
-          <li>prova</li>
+          <a href="#"><li>HOME</li></a> 
+          <a href="#"><li>ABOUT</li></a> 
+          <a href="#"><li>SERVICES</li></a> 
+          <a href="#"><li>PACKAGES</li></a> 
+          <a href="#"><li>INSIGHT</li></a> 
+          <a href="#"><li>CONTACT</li></a> 
+          <a href="#"><li>+</li></a> 
         </ul>
       </div>
     </div>
@@ -24,6 +27,8 @@ export default {
 
 <style lang="scss" scoped>
   header{
+    height: 50px;
+    border-bottom: 1px solid #000;
     .container{
       width: 95%;
       margin: 0 auto;
@@ -31,9 +36,7 @@ export default {
       justify-content: space-between;
       align-items: center;
     }
-    
-    height: 50px;
-    border-bottom: 1px solid #000;
+   
     .logo{
       width: 180px;
       img{
@@ -41,7 +44,12 @@ export default {
       }
     }
     .menu{
-      align-items: center;
+      height: 100%;
+      a{
+        text-decoration: none;
+        color: #949494;
+        margin-right: 20px;
+      }
     }
   }
 
