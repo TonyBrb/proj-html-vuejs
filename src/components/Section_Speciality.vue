@@ -48,7 +48,7 @@ export default {
     .intro{
       padding: 50px;
       .trattino{
-        border: 1px solid black;
+        border: 1px solid #426ead;
         width: 60px;
         margin-left: calc(50% - 30px);
         margin-bottom: 25px;
@@ -63,6 +63,7 @@ export default {
         background-color: #fff;
         h1{
           font-size: 50px;
+          color: #426ead;
           margin-bottom: 0;
         }
 

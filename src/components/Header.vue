@@ -11,7 +11,7 @@
           <a href="#"><li>SERVICES</li></a> 
           <a href="#"><li>PACKAGES</li></a> 
           <a href="#"><li>INSIGHT</li></a> 
-          <a href="#"><li>CONTACT</li></a> 
+          <a href="#"><li class="active">CONTACT</li></a> 
           <a href="#"><li>+</li></a> 
         </ul>
       </div>
@@ -28,7 +28,8 @@ export default {
 <style lang="scss" scoped>
   header{
     height: 50px;
-    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
     .container{
       width: 95%;
       margin: 0 auto;
@@ -56,6 +57,24 @@ export default {
   ul{
     list-style: none;
     display: flex;
+    margin: 0;
+    line-height: 50px;
+    align-items: center;
+
+    li:hover{
+      background-color: #f6f7f7;
+      color: #1b304b;
+    }
+
+    .active{
+      background-color: #5ddecc;
+      color: white;
+      border-radius: 25px;
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 30px;
+      line-height: 30px;
+    }
   }
 
 </style>

@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <h1>Ready to talk?</h1>
-      <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, beatae? Exercitationem magni repellendus itaque</span>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, beatae? Exercitationem magni repellendus itaque</p>
       <button class="btn">LET'S TALK</button>
     </div>
   </section>
@@ -16,7 +16,8 @@ export default {
 
 <style lang="scss" scoped>
   section{
-    height: 300px;
+    min-height: 300px;
+    padding-bottom: 50px;
     background-image: url('../assets/img/ready_to_talk_cta_bg.jpg');
     object-fit: contain;
     text-align: center;

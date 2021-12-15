@@ -23,5 +23,7 @@ export default {
 </script>
 
 <style lang="scss">
-
+  div{
+  font-family: 'Playfair Display', serif;
+  }
 </style>

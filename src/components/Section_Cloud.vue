@@ -30,7 +30,7 @@ export default {
       width: 50%;
       .trattino{
         width: 60px;
-        border: 1px solid black;
+        border: 1px solid #426ead;
       }
       .btn{
         background-color: #5cdbcc;

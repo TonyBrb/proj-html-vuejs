@@ -48,7 +48,7 @@ export default {
       left:50%;
       transform: translate(-50%, -50%);
       color: white;
-      font-size: 50px;
+      font-size: 40px;
     }
     .jumbo-down{
       display: flex;
