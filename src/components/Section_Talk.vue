@@ -33,6 +33,10 @@ export default {
       padding-top: 80px;
       padding-bottom: 20px;
     }
+
+    p{
+      color: #949494;
+    }
     
     .btn{
       margin-top: 20px;
