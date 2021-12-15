@@ -1,3 +1,4 @@
+// Creo il componente suddiviso in 2 div, in uno metto l'intro, nell'altro i piani economici
 <template>
   <section>
     <div class="container">
@@ -47,6 +48,11 @@ export default {
 
     .intro{
       padding: 50px;
+      color: #949494;
+
+      h2{
+        color: #000;
+      }
       .trattino{
         border: 1px solid #426ead;
         width: 60px;
@@ -76,6 +82,13 @@ export default {
           padding-bottom: 5px;
           margin-top: 30px;
           cursor: pointer;
+        }
+      }
+
+      .learn-more{
+        color: #949494;
+        h3{
+          color: #000;
         }
       }
 

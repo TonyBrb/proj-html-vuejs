@@ -1,3 +1,5 @@
+// Creo il componente footer suddiviso in 2 div, up e down, dove nel primo si trova il logo con le varie opzioni
+// nel secondo invece il copyright a sinistra e la sezione social a destra
 <template>
   <footer>
     <div class="up">

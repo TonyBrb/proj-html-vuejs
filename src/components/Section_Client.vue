@@ -1,3 +1,5 @@
+// Creo il componente suddiviso in 2 div, up e down, in up metto il titolo, in down i feedback con logo
+// feedback e creatore del feedback
 <template>
   <section>
     <div class="up">
@@ -82,6 +84,7 @@ export default {
         .container{
           width: 80%;
           margin: 0 auto;
+          color: #949494;
         }
         img{
           width: 70%;
@@ -98,6 +101,9 @@ export default {
           margin-top: 60px;
           h5,h6{
             margin: 10px;
+          }
+          h6{
+            color: #949494;
           }
         }
       }

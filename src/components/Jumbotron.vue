@@ -1,3 +1,6 @@
+// Creo il componente jumbotron con due parti separate, una sopra dove si trova l'immagine
+// e una al di sotto dove si trovano i vari loghi
+
 <template>
   <div class="jumbotron">
     <img src="../assets/img/home_finance_slider_bg.jpg" alt="">

@@ -1,3 +1,4 @@
+// Creo il componente composto da due div, separati orizzontalmente tramite display flex
 <template>
   <section>
     <div class="cloud">
@@ -28,6 +29,10 @@ export default {
     align-items: center;
     .cloud{
       width: 50%;
+
+      p{
+        color: #949494;
+      }
       .trattino{
         width: 60px;
         border: 1px solid #426ead;

@@ -1,3 +1,4 @@
+//Creo l'header composta da logo e menu, separati tramite display flex.
 <template>
   <header>
     <div class="container">

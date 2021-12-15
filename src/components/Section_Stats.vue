@@ -1,3 +1,4 @@
+// Creo il componente suddiviso in 2 div, left e right.
 <template>
   <section>
     <div class="left">
